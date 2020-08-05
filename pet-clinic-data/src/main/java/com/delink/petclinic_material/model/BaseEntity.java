@@ -7,4 +7,5 @@ import javax.persistence.MappedSuperclass;
  */
 @MappedSuperclass
 public class BaseEntity {
+    private Long id;
 }
