@@ -8,7 +8,7 @@ import java.util.Set;
 /**
  * Created by Adewale.Adeleye on 05/08/2020
  */
-public interface VetService {
+public interface VetService extends CrudService<Vet, Long> {
     Vet findById(Long id);
     Vet save(Vet Vet);
     Set<Vet> findAll();
